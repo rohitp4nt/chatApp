@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, div, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Chat messages container */
+#messages {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 400px; /* Fixed height with scroll */
+}
+
+/* Individual message styling */
+#messages div {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 80%;
+    word-wrap: break-word; /* Wrap long words */
+}
+
+/* User 1 message styling */
+.user1 {
+    background-color: #d1e7dd;
+    align-self: flex-start; /* Align to the left */
+    margin-left: 0; /* Align to left */
+}
+
+/* User 2 message styling */
+.user2 {
+    background-color: #cfe2ff;
+    align-self: flex-end; /* Align to the right */
+    margin-right: 0; /* Align to right */
+}
+
+/* Form styling */
+.chat-form {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+/* Input field styling */
+#message {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+/* Button styling */
+#sendbtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+#sendbtn:hover {
+    background-color: #0056b3;
+}
